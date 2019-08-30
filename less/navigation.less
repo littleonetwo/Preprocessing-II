@@ -1,1 +1,24 @@
 // Navigation Styles here
+nav a{
+  //.flex(space-between, center, row, nowrap);
+  margin: 25px 15px;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: black;
+  font-weight:bold;
+  @media @mobile{
+
+    margin: 25px 20%;
+  }
+}
+
+nav{
+  .flex(space-between, center, row, nowrap);
+
+  @media @mobile{
+    .flex(flex-start, center, row, nowrap);
+    position: relative;
+    right: 135px;
+  }
+
+}
